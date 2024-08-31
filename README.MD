@@ -1,84 +1,82 @@
-<p align="center">
-<img src="https://github.com/v6nom/assets/blob/main/sk_tools_main.jpg?raw=true", width="1000", height="800">
-</p>
-
------
-
-### <p align="center">🪐 SK Tools 🪐</p>
-
-<br><br>
-<p align="center">
-<strong>
-SK Tools is the best sk checker and sk generator in Python3.
-<br><br>
-With SK Tools you can have a lot of sk key.
-<br><br><br>
-</strong>
-<img src="https://raw.githubusercontent.com/v6nom/assets/main/sk-tools_presentation.gif" width="850", height="500">
-</p>
-<br>
-
------
-
-### <p align="center">📀 Dependencies 📀</p>
-
-<p align="center"><strong><i>In order for the program to work, you have to install these ressources:</i></strong</p>
-
-<br><br>
-* <a href="https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe">Python3</a>
-* run `install.bat`
+<p align="center">🪐 PyInstaller Guide 🪐</p>
 <br><br>
 
------
-
-### <p align="center">⭐ Features ⭐</p>
-
-<br><br>
-<strong>+ Can generate unlimited sk key and check with no limit !</strong>
-<br>
-<strong>+ Can know the error of the sk key if not work</strong>
-<br>
-<strong>+ Can have private sk key with long time</strong>
-<br>
-<strong>+ Have a fast api
-
-<p align="right">
-<img src="https://raw.githubusercontent.com/v6nom/assets/main/venom_logo2.jfif" width="250", height="150">
-</p>
+<p align="center"> <strong> This repository explains how to use PyInstaller to convert Python scripts into standalone executables (.exe files). <br><br> With PyInstaller, you can secure and distribute your Python programs with ease. <br><br><br> </strong> </p> <br>
+<p align="center">📀 Example Scripts 📀</p>
+<p align="center"><strong><i>Here are some example scripts that demonstrate how PyInstaller works:</i></strong></p>
 <br><br>
 
------
-
-
-<p align="center"><strong><i>complex_script.py</i></strong</p>
-<p align="center"><strong><i>This is a complex script that could include external dependencies and requires additional considerations when converting to an executable.</i></strong</p>
-
-<br><br>
-* Time: 🔵
-* Complexity: 🔵
-* Service: 🔴
-<br><br>
-
------
-
-### <p align="center">💡 Ideas 💡</p>
-
-<p align="center"><strong><i>Feel free to make a pull request on this repository to submit any idea!</i></strong</p>
-
-<br><br>
-* Add a sk key scraper
+hello_world.py
+<p align="center"><strong><i>This is a simple Python script that prints "Hello, World!" to the console.</i></strong></p>
+html
+Copier le code
+<pre>
+<code>
+print("Hello, World!")
+</code>
+</pre>
 <br><br>
 
------
+complex_script.py
+<p align="center"><strong><i>This is a more complex script that could include external dependencies and requires additional considerations when converting to an executable.</i></strong></p>
+html
+Copier le code
+<pre>
+<code>
+import sys
 
-### <p align="center">📌 Disclaimer 📌</p>
+def main():
+    print(f"Arguments: {sys.argv}")
 
+if __name__ == "__main__":
+    main()
+</code>
+</pre>
 <br><br>
-* ***Please use this program only for educational purposes.***
-* ***It is not meant to be used in any malicious way, and I decline any responsibility for what you do with it.***
+
+<p align="center">🛠️ How to Convert a Python Script to an Executable 🛠️</p>
 <br><br>
 
------
+<p align="center"><strong><i>Follow these steps to convert your Python script into an executable:</i></strong></p>
+<br><br>
 
-### <p align="center">v6nom</p>
-  ### <p align="center">README.md inspired by https://github.com/billythegoat356//</p>
+Navigate to the directory containing your script:
+
+html
+Copier le code
+<pre>
+<code>
+cd path/to/your/script
+</code>
+</pre>
+Run PyInstaller to create the executable:
+
+html
+Copier le code
+<pre>
+<code>
+pyinstaller --onefile hello_world.py
+</code>
+</pre>
+<br><br>
+
+<p align="center">🔒 PyInstaller Settings 🔒</p>
+<br><br>
+
+--key Setting
+<p align="center"><strong><i>The `--key` setting in PyInstaller is used for encryption. It specifies a key to encrypt the content of the bundled executable.</i></strong></p>
+<br><br>
+
+<p align="center"> This can be useful if you need to protect the source code or sensitive data. <br><br> </p>
+Example usage:
+html
+Copier le code
+<pre>
+<code>
+pyinstaller --onefile --key YOUR_SECRET_KEY your_script.py
+</code>
+</pre>
+<p align="center"><strong><i>In this command, `YOUR_SECRET_KEY` is a string you provide. PyInstaller will use this key to encrypt the content of the executable, making it harder to reverse-engineer.</i></strong></p>
+<br><br>
+
+<p align="center">README.md inspired by https://github.com/billythegoat356/</p>
