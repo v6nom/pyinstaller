@@ -1,4 +1,3 @@
-<p align="center"> <img src="https://github.com/v6nom/assets/blob/main/sk_tools_main.jpg?raw=true" width="1000" height="800"> </p>
 <p align="center">🪐 PyInstaller Guide 🪐</p>
 <br><br>
 
@@ -9,8 +8,6 @@
 
 hello_world.py
 <p align="center"><strong><i>This is a simple Python script that prints "Hello, World!" to the console.</i></strong></p>
-html
-Copier le code
 <pre>
 <code>
 print("Hello, World!")
