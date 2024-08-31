@@ -8,8 +8,7 @@
 
 hello_world.py
 <p align="center"><strong><i>This is a simple Python script that prints "Hello, World!" to the console.</i></strong></p>
-html
-Copier le code
+
 <pre>
 <code>
 print("Hello, World!")
@@ -19,8 +18,7 @@ print("Hello, World!")
 
 complex_script.py
 <p align="center"><strong><i>This is a more complex script that could include external dependencies and requires additional considerations when converting to an executable.</i></strong></p>
-html
-Copier le code
+
 <pre>
 <code>
 import sys
@@ -42,8 +40,6 @@ if __name__ == "__main__":
 
 Navigate to the directory containing your script:
 
-html
-Copier le code
 <pre>
 <code>
 cd path/to/your/script
@@ -51,8 +47,6 @@ cd path/to/your/script
 </pre>
 Run PyInstaller to create the executable:
 
-html
-Copier le code
 <pre>
 <code>
 pyinstaller --onefile hello_world.py
@@ -69,8 +63,7 @@ pyinstaller --onefile hello_world.py
 
 <p align="center"> This can be useful if you need to protect the source code or sensitive data. <br><br> </p>
 Example usage:
-html
-Copier le code
+
 <pre>
 <code>
 pyinstaller --onefile --key YOUR_SECRET_KEY your_script.py
